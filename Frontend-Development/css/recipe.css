@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecdcc9;
+}
+
+main {
+    display: absolute;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #f5f5f5; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-details {
+    margin-bottom: 2em;
+}
+
+h1 {
+    color: #4d243d;
+    text-align: center;
+}
+
+h2 {
+    color: #d0a98f; /* Light brown color */
+    border-bottom: 2px solid #cac2b5; /* Light gray color */
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+ul, ol {
+    margin-left: 2em;
+    padding-left: 0.5em;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+.recipe-image {
+    display: block;
+    max-width: 40%;
+    margin: 2em auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.home-icon {
+    width: 30px; /* Adjust the width and height as needed for your home icon */
+    height: auto;
+}
+
+/* Customize the Bootstrap navbar */
+.navbar-custom {
+    background-color: #ecdcc9;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.navbar-custom ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-custom li {
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 1;
+}
+
+.navbar-custom a {
+    text-decoration: none;
+    color: #4d243d;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-custom a:hover {
+    color: #d0a98f;
+}
