@@ -1,1 +1,1 @@
-Skills test for the UP CAPES IT Committee’s Web Development# Lagana-JanRhey-Skills-Test
+Skills test for the UP CAPES IT Committee’s Web Development
